@@ -33,11 +33,34 @@
   <text x="106" y="187" class="mono" fill="#d1bda3" font-size="14">python</text>
   <text x="1014" y="187" class="mono" fill="#9ebdbe" font-size="13">main.py</text>
   <g clip-path="url(#python-clip)" class="mono" font-size="19">
-    <text x="110" y="246" fill="#d8c8ad" font-weight="700">from pathlib import Path</text>
-    <text x="110" y="284" fill="#d1bda3">def load_theme(name: str) -&gt; tuple[int, Path]:</text>
+    <text y="246">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">from</tspan>
+      <tspan x="166" fill="#d1bda3">pathlib</tspan>
+      <tspan x="258" fill="#d8c8ad" font-weight="700">import</tspan>
+      <tspan x="348" fill="#9ebdbe">Path</tspan>
+    </text>
+    <text y="284">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">def</tspan>
+      <tspan x="154" fill="#9ebdbe">load_theme</tspan>
+      <tspan x="278" fill="#d1bda3">(name: </tspan>
+      <tspan fill="#9ebdbe">str</tspan>
+      <tspan fill="#d1bda3">) -&gt; tuple[int, </tspan>
+      <tspan fill="#9ebdbe">Path</tspan>
+      <tspan fill="#d1bda3">]:</tspan>
+    </text>
     <text x="150" y="322" fill="#9f927f" font-style="italic"># Warm foreground, quiet accents.</text>
-    <text x="150" y="360" fill="#d1bda3">path = Path("themes") / name</text>
-    <text x="150" y="398" fill="#d1bda3">return len(name), path</text>
+    <text y="360">
+      <tspan x="150" fill="#d1bda3">path = </tspan>
+      <tspan x="232" fill="#9ebdbe">Path</tspan>
+      <tspan x="282" fill="#d1bda3">(</tspan>
+      <tspan fill="#c9b27a">"themes"</tspan>
+      <tspan fill="#d1bda3">) / name</tspan>
+    </text>
+    <text y="398">
+      <tspan x="150" fill="#d8c8ad" font-weight="700">return</tspan>
+      <tspan x="232" fill="#b8c9c8" font-weight="700">len</tspan>
+      <tspan fill="#d1bda3">(name), path</tspan>
+    </text>
   </g>
 
   <rect x="78" y="496" width="1044" height="362" rx="8" fill="#08141a" stroke="#1a2b33"/>
@@ -46,13 +69,36 @@
   <text x="106" y="523" class="mono" fill="#d1bda3" font-size="14">go</text>
   <text x="1012" y="523" class="mono" fill="#9ebdbe" font-size="13">main.go</text>
   <g clip-path="url(#go-clip)" class="mono" font-size="19">
-    <text x="110" y="582" fill="#d8c8ad" font-weight="700">package main</text>
-    <text x="110" y="620" fill="#d8c8ad" font-weight="700">import "fmt"</text>
-    <text x="110" y="658" fill="#d1bda3">type Palette struct {</text>
-    <text x="150" y="696" fill="#d1bda3">Foreground string</text>
+    <text y="582">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">package</tspan>
+      <tspan x="202" fill="#d1bda3">main</tspan>
+    </text>
+    <text y="620">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">import</tspan>
+      <tspan x="190" fill="#c9b27a">"fmt"</tspan>
+    </text>
+    <text y="658">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">type</tspan>
+      <tspan x="168" fill="#9ebdbe">Palette</tspan>
+      <tspan x="260" fill="#d8c8ad" font-weight="700">struct</tspan>
+      <tspan x="340" fill="#d1bda3">{</tspan>
+    </text>
+    <text y="696">
+      <tspan x="150" fill="#d1bda3">Foreground</tspan>
+      <tspan x="282" fill="#9ebdbe">string</tspan>
+    </text>
     <text x="110" y="734" fill="#d1bda3">}</text>
-    <text x="110" y="772" fill="#d1bda3">func main() {</text>
-    <text x="150" y="810" fill="#d1bda3">fmt.Println("Baltic")</text>
+    <text y="772">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">func</tspan>
+      <tspan x="166" fill="#9ebdbe">main</tspan>
+      <tspan x="220" fill="#d1bda3">() {</tspan>
+    </text>
+    <text y="810">
+      <tspan x="150" fill="#9ebdbe">fmt.Println</tspan>
+      <tspan x="286" fill="#d1bda3">(</tspan>
+      <tspan fill="#c9b27a">"Baltic"</tspan>
+      <tspan fill="#d1bda3">)</tspan>
+    </text>
     <text x="110" y="848" fill="#d1bda3">}</text>
   </g>
 
@@ -62,10 +108,35 @@
   <text x="106" y="901" class="mono" fill="#d1bda3" font-size="14">zig</text>
   <text x="1006" y="901" class="mono" fill="#9ebdbe" font-size="13">main.zig</text>
   <g clip-path="url(#zig-clip)" class="mono" font-size="19">
-    <text x="110" y="954" fill="#d8c8ad" font-weight="700">const std = @import("std");</text>
-    <text x="110" y="992" fill="#d1bda3">pub fn main() !void {</text>
-    <text x="150" y="1030" fill="#d1bda3">const name = "Baltic";</text>
-    <text x="150" y="1068" fill="#d1bda3">try std.io.getStdOut().writer().print("{s}\n", .{name});</text>
+    <text y="954">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">const</tspan>
+      <tspan x="178" fill="#d1bda3">std = </tspan>
+      <tspan x="250" fill="#b8c9c8" font-weight="700">@import</tspan>
+      <tspan x="342" fill="#d1bda3">(</tspan>
+      <tspan fill="#c9b27a">"std"</tspan>
+      <tspan fill="#d1bda3">);</tspan>
+    </text>
+    <text y="992">
+      <tspan x="110" fill="#d8c8ad" font-weight="700">pub fn</tspan>
+      <tspan x="190" fill="#9ebdbe">main</tspan>
+      <tspan x="246" fill="#d1bda3">() </tspan>
+      <tspan fill="#b79ab2">!void</tspan>
+      <tspan fill="#d1bda3"> {</tspan>
+    </text>
+    <text y="1030">
+      <tspan x="150" fill="#d8c8ad" font-weight="700">const</tspan>
+      <tspan x="218" fill="#d1bda3">name = </tspan>
+      <tspan x="300" fill="#c9b27a">"Baltic"</tspan>
+      <tspan fill="#d1bda3">;</tspan>
+    </text>
+    <text y="1068">
+      <tspan x="150" fill="#d8c8ad" font-weight="700">try</tspan>
+      <tspan x="196" fill="#d1bda3">std.io.getStdOut().writer().</tspan>
+      <tspan x="528" fill="#9ebdbe">print</tspan>
+      <tspan x="588" fill="#d1bda3">(</tspan>
+      <tspan fill="#c9b27a">"{s}\n"</tspan>
+      <tspan fill="#d1bda3">, .{name});</tspan>
+    </text>
     <text x="110" y="1106" fill="#d1bda3">}</text>
   </g>
 </svg>
