@@ -32,12 +32,12 @@
   <rect x="78" y="194" width="1044" height="8" fill="#101d24"/>
   <text x="106" y="187" class="mono" fill="#d1bda3" font-size="14">python</text>
   <text x="1014" y="187" class="mono" fill="#9ebdbe" font-size="13">main.py</text>
-  <g clip-path="url(#python-clip)" class="mono" font-size="19" xml:space="preserve">
+  <g clip-path="url(#python-clip)" class="mono" font-size="19">
     <text x="110" y="246" fill="#d8c8ad" font-weight="700">from pathlib import Path</text>
     <text x="110" y="284" fill="#d1bda3">def load_theme(name: str) -&gt; tuple[int, Path]:</text>
-    <text x="110" y="322" fill="#9f927f" font-style="italic">    # Warm foreground, quiet accents.</text>
-    <text x="110" y="360" fill="#d1bda3">    path = Path("themes") / name</text>
-    <text x="110" y="398" fill="#d1bda3">    return len(name), path</text>
+    <text x="150" y="322" fill="#9f927f" font-style="italic"># Warm foreground, quiet accents.</text>
+    <text x="150" y="360" fill="#d1bda3">path = Path("themes") / name</text>
+    <text x="150" y="398" fill="#d1bda3">return len(name), path</text>
   </g>
 
   <rect x="78" y="496" width="1044" height="362" rx="8" fill="#08141a" stroke="#1a2b33"/>
@@ -45,14 +45,14 @@
   <rect x="78" y="530" width="1044" height="8" fill="#101d24"/>
   <text x="106" y="523" class="mono" fill="#d1bda3" font-size="14">go</text>
   <text x="1012" y="523" class="mono" fill="#9ebdbe" font-size="13">main.go</text>
-  <g clip-path="url(#go-clip)" class="mono" font-size="19" xml:space="preserve">
+  <g clip-path="url(#go-clip)" class="mono" font-size="19">
     <text x="110" y="582" fill="#d8c8ad" font-weight="700">package main</text>
     <text x="110" y="620" fill="#d8c8ad" font-weight="700">import "fmt"</text>
     <text x="110" y="658" fill="#d1bda3">type Palette struct {</text>
-    <text x="110" y="696" fill="#d1bda3">    Foreground string</text>
+    <text x="150" y="696" fill="#d1bda3">Foreground string</text>
     <text x="110" y="734" fill="#d1bda3">}</text>
     <text x="110" y="772" fill="#d1bda3">func main() {</text>
-    <text x="110" y="810" fill="#d1bda3">    fmt.Println("Baltic")</text>
+    <text x="150" y="810" fill="#d1bda3">fmt.Println("Baltic")</text>
     <text x="110" y="848" fill="#d1bda3">}</text>
   </g>
 
@@ -61,11 +61,11 @@
   <rect x="78" y="908" width="1044" height="8" fill="#101d24"/>
   <text x="106" y="901" class="mono" fill="#d1bda3" font-size="14">zig</text>
   <text x="1006" y="901" class="mono" fill="#9ebdbe" font-size="13">main.zig</text>
-  <g clip-path="url(#zig-clip)" class="mono" font-size="19" xml:space="preserve">
+  <g clip-path="url(#zig-clip)" class="mono" font-size="19">
     <text x="110" y="954" fill="#d8c8ad" font-weight="700">const std = @import("std");</text>
     <text x="110" y="992" fill="#d1bda3">pub fn main() !void {</text>
-    <text x="110" y="1030" fill="#d1bda3">    const name = "Baltic";</text>
-    <text x="110" y="1068" fill="#d1bda3">    try std.io.getStdOut().writer().print("{s}\n", .{name});</text>
+    <text x="150" y="1030" fill="#d1bda3">const name = "Baltic";</text>
+    <text x="150" y="1068" fill="#d1bda3">try std.io.getStdOut().writer().print("{s}\n", .{name});</text>
     <text x="110" y="1106" fill="#d1bda3">}</text>
   </g>
 </svg>
