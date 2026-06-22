@@ -4,7 +4,7 @@
   "description": "A cream-forward dark theme with deep blue-black surfaces.",
   "version": "0.1.0",
   "publisher": "mlschodkowski",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "author": "Milosz Chodkowski",
   "repository": {
     "type": "git",

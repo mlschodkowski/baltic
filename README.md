@@ -100,4 +100,4 @@ The VS Code package follows the official theme contribution shape, the Zed theme
 
 ## License
 
-MIT
+AGPL-3.0
