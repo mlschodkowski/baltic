@@ -1,0 +1,10 @@
+id = "baltic-theme"
+name = "Baltic Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Milosz Chodkowski"]
+description = "A cream-forward dark theme with deep blue-black surfaces."
+repository = "https://github.com/mlschodkowski/baltic"
+
+[themes]
+Baltic = "themes/baltic.json"
