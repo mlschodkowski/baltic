@@ -1,5 +1,13 @@
 # Baltic
 
+<p align="center">
+  <img src="docs/assets/baltic-preview.svg" alt="Baltic theme preview showing editor syntax, terminal colors, and palette swatches">
+</p>
+
+<p align="center">
+  <strong>Cream text, deep blue-black surfaces, and quiet coastal accents.</strong>
+</p>
+
 Baltic is a cream-forward dark theme for editors and terminals. It keeps the main text warm and readable, then uses a small set of cold, muted accents for code structure.
 
 The palette is not a clone of Naysayer or Solarized. It follows the same kind of restraint: stable contrast, few loud colors, and syntax colors that stay useful after long sessions.
@@ -70,7 +78,7 @@ With `lazy.nvim`:
 
 ```lua
 {
-  dir = "~/Repos/mls-themes/nvim",
+  "mlschodkowski/baltic",
   name = "baltic.nvim",
   priority = 1000,
   config = function()

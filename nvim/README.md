@@ -1,12 +1,12 @@
 # Baltic Theme for Neovim
 
-## Local Install
+## Install
 
 With lazy.nvim:
 
 ```lua
 {
-  dir = "~/Repos/mls-themes/nvim",
+  "mlschodkowski/baltic",
   name = "baltic.nvim",
   priority = 1000,
   config = function()
@@ -15,10 +15,8 @@ With lazy.nvim:
 }
 ```
 
-Manual:
+After installation, enable the colorscheme:
 
 ```vim
-:set runtimepath+=~/Repos/mls-themes/nvim
 :colorscheme baltic
 ```
-

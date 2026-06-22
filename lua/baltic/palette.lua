@@ -1,0 +1,22 @@
+return {
+  bg = "#08141a",
+  surface = "#101d24",
+  surface_high = "#1a2b33",
+  selection = "#263d47",
+  fg = "#d1bda3",
+  bright = "#f0eadc",
+  muted = "#9f927f",
+  keyword = "#d8c8ad",
+  func = "#9ebdbe",
+  builtin = "#b8c9c8",
+  string = "#c9b27a",
+  accent = "#d99f6b",
+  constant = "#b79ab2",
+  green = "#97b88b",
+  red = "#c57972",
+  bright_red = "#d28a82",
+  bright_green = "#a9c99d",
+  bright_yellow = "#d8c488",
+  bright_magenta = "#c8abc3",
+}
+
