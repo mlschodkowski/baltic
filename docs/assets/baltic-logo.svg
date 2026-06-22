@@ -2,10 +2,10 @@
   <title id="title">Baltic logo</title>
   <desc id="desc">Baltic theme logo with calm low waves inspired by the Baltic Sea.</desc>
   <rect width="900" height="260" rx="18" fill="#08141a"/>
-  <path d="M76 166 C140 128 198 128 262 166 C326 204 384 204 448 166 C512 128 570 128 634 166 C698 204 756 204 824 166" fill="none" stroke="#9ebdbe" stroke-width="10" stroke-linecap="round"/>
-  <path d="M76 194 C140 156 198 156 262 194 C326 232 384 232 448 194 C512 156 570 156 634 194 C698 232 756 232 824 194" fill="none" stroke="#d1bda3" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
-  <path d="M76 138 C140 100 198 100 262 138 C326 176 384 176 448 138 C512 100 570 100 634 138 C698 176 756 176 824 138" fill="none" stroke="#263d47" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
+  <path d="M76 182 C140 150 198 150 262 182 C326 214 384 214 448 182 C512 150 570 150 634 182 C698 214 756 214 824 182" fill="none" stroke="#9ebdbe" stroke-width="10" stroke-linecap="round"/>
+  <path d="M76 214 C140 182 198 182 262 214 C326 246 384 246 448 214 C512 182 570 182 634 214 C698 246 756 246 824 214" fill="none" stroke="#d1bda3" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
+  <path d="M76 154 C140 122 198 122 262 154 C326 186 384 186 448 154 C512 122 570 122 634 154 C698 186 756 186 824 154" fill="none" stroke="#263d47" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
   <circle cx="742" cy="86" r="22" fill="#d99f6b"/>
   <text x="74" y="94" fill="#f0eadc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="800">Baltic</text>
-  <text x="76" y="124" fill="#9f927f" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">cream-forward colors for cold water and low light</text>
+  <text x="76" y="122" fill="#9f927f" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">cream-forward colors for cold water and low light</text>
 </svg>
