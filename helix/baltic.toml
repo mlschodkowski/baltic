@@ -48,8 +48,8 @@
 "ui.selection" = { bg = "surface_high" }
 "ui.selection.primary" = { bg = "selection" }
 
-"ui.linenr" = { fg = "surface_high" }
-"ui.linenr.selected" = { fg = "teal", modifiers = ["bold"] }
+"ui.linenr" = { fg = "muted" }
+"ui.linenr.selected" = { fg = "bright", modifiers = ["bold"] }
 "ui.cursorline" = { bg = "surface" }
 "ui.statusline" = { fg = "fg", bg = "surface" }
 "ui.statusline.normal" = { fg = "bg", bg = "fg", modifiers = ["bold"] }
