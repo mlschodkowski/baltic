@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1180" viewBox="0 0 1200 1180" role="img" aria-labelledby="title desc">
   <title id="title">Baltic theme code preview</title>
-  <desc id="desc">Baltic theme preview with Python, Go, and Zig code samples plus a compact palette strip.</desc>
+  <desc id="desc">Baltic theme preview with vertically stacked Python, Go, and Zig code samples.</desc>
   <defs>
     <style>
       .ui { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -8,15 +8,15 @@
     </style>
   </defs>
 
-  <rect width="1200" height="680" fill="#08141a"/>
-  <rect x="34" y="34" width="1132" height="612" rx="12" fill="#101d24" stroke="#1a2b33"/>
+  <rect width="1200" height="1180" fill="#08141a"/>
+  <rect x="34" y="34" width="1132" height="1112" rx="12" fill="#101d24" stroke="#1a2b33"/>
 
   <g class="ui">
-    <text x="72" y="92" fill="#f0eadc" font-size="34" font-weight="750">Baltic</text>
-    <text x="72" y="123" fill="#9f927f" font-size="16">cream text, deep blue-black surfaces, quiet syntax accents</text>
+    <text x="78" y="94" fill="#f0eadc" font-size="34" font-weight="750">Baltic</text>
+    <text x="78" y="126" fill="#9f927f" font-size="16">cream text, deep blue-black surfaces, quiet syntax accents</text>
   </g>
 
-  <g transform="translate(770 70)">
+  <g transform="translate(764 74)">
     <rect width="34" height="34" rx="5" fill="#08141a" stroke="#1a2b33"/>
     <rect x="44" width="34" height="34" rx="5" fill="#101d24"/>
     <rect x="88" width="34" height="34" rx="5" fill="#1a2b33"/>
@@ -27,138 +27,123 @@
     <rect x="308" width="34" height="34" rx="5" fill="#d99f6b"/>
   </g>
 
-  <g transform="translate(72 166)">
-    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
-    <rect width="336" height="40" rx="8" fill="#101d24"/>
-    <rect y="32" width="336" height="8" fill="#101d24"/>
-    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">python</text>
-    <text x="264" y="26" class="mono" fill="#9ebdbe" font-size="12">main.py</text>
+  <g transform="translate(78 176)">
+    <rect width="1044" height="276" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="1044" height="42" rx="8" fill="#101d24"/>
+    <rect y="34" width="1044" height="8" fill="#101d24"/>
+    <text x="28" y="27" class="mono" fill="#d1bda3" font-size="14">python</text>
+    <text x="936" y="27" class="mono" fill="#9ebdbe" font-size="13">main.py</text>
 
-    <g class="mono" font-size="16">
-      <text x="22" y="76" fill="#9f927f">01</text>
-      <text x="58" y="76" fill="#d8c8ad" font-weight="700">from</text>
-      <text x="112" y="76" fill="#d1bda3"> pathlib </text>
-      <text x="206" y="76" fill="#d8c8ad" font-weight="700">import</text>
-      <text x="274" y="76" fill="#9ebdbe"> Path</text>
+    <g class="mono" font-size="18">
+      <text x="28" y="80" fill="#9f927f">01</text>
+      <text x="78" y="80" fill="#d8c8ad" font-weight="700">from</text>
+      <text x="132" y="80" fill="#d1bda3"> pathlib </text>
+      <text x="226" y="80" fill="#d8c8ad" font-weight="700">import</text>
+      <text x="304" y="80" fill="#9ebdbe"> Path</text>
 
-      <text x="22" y="112" fill="#9f927f">02</text>
-      <text x="58" y="112" fill="#d8c8ad" font-weight="700">def</text>
-      <text x="100" y="112" fill="#9ebdbe"> load_theme</text>
-      <text x="218" y="112" fill="#d1bda3">(name):</text>
+      <text x="28" y="116" fill="#9f927f">02</text>
+      <text x="78" y="116" fill="#d8c8ad" font-weight="700">def</text>
+      <text x="122" y="116" fill="#9ebdbe"> load_theme</text>
+      <text x="252" y="116" fill="#d1bda3">(name):</text>
 
-      <text x="22" y="148" fill="#9f927f">03</text>
-      <text x="58" y="148" fill="#9f927f" font-style="italic"># warm foreground, quiet accents</text>
+      <text x="28" y="152" fill="#9f927f">03</text>
+      <text x="78" y="152" fill="#9f927f" font-style="italic">    # warm foreground, quiet accents</text>
 
-      <text x="22" y="184" fill="#9f927f">04</text>
-      <text x="58" y="184" fill="#d1bda3">    path = </text>
-      <text x="150" y="184" fill="#9ebdbe">Path</text>
-      <text x="194" y="184" fill="#d1bda3">(</text>
-      <text x="208" y="184" fill="#c9b27a">"themes"</text>
-      <text x="294" y="184" fill="#d1bda3">)</text>
+      <text x="28" y="188" fill="#9f927f">04</text>
+      <text x="78" y="188" fill="#d1bda3">    path = </text>
+      <text x="184" y="188" fill="#9ebdbe">Path</text>
+      <text x="232" y="188" fill="#d1bda3">(</text>
+      <text x="246" y="188" fill="#c9b27a">"themes"</text>
+      <text x="338" y="188" fill="#d1bda3">)</text>
 
-      <text x="22" y="220" fill="#9f927f">05</text>
-      <text x="58" y="220" fill="#d8c8ad" font-weight="700">    return</text>
-      <text x="154" y="220" fill="#b8c9c8" font-weight="700"> len</text>
-      <text x="198" y="220" fill="#d1bda3">(name), path</text>
-
-      <text x="22" y="256" fill="#9f927f">06</text>
-      <text x="58" y="256" fill="#b79ab2">VERSION</text>
-      <text x="138" y="256" fill="#d1bda3"> = </text>
-      <text x="174" y="256" fill="#b79ab2">1</text>
+      <text x="28" y="224" fill="#9f927f">05</text>
+      <text x="78" y="224" fill="#d8c8ad" font-weight="700">    return</text>
+      <text x="184" y="224" fill="#b8c9c8" font-weight="700"> len</text>
+      <text x="232" y="224" fill="#d1bda3">(name), path</text>
     </g>
   </g>
 
-  <g transform="translate(432 166)">
-    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
-    <rect width="336" height="40" rx="8" fill="#101d24"/>
-    <rect y="32" width="336" height="8" fill="#101d24"/>
-    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">go</text>
-    <text x="266" y="26" class="mono" fill="#9ebdbe" font-size="12">main.go</text>
+  <g transform="translate(78 486)">
+    <rect width="1044" height="312" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="1044" height="42" rx="8" fill="#101d24"/>
+    <rect y="34" width="1044" height="8" fill="#101d24"/>
+    <text x="28" y="27" class="mono" fill="#d1bda3" font-size="14">go</text>
+    <text x="936" y="27" class="mono" fill="#9ebdbe" font-size="13">main.go</text>
 
-    <g class="mono" font-size="16">
-      <text x="22" y="76" fill="#9f927f">01</text>
-      <text x="58" y="76" fill="#d8c8ad" font-weight="700">package</text>
-      <text x="138" y="76" fill="#d1bda3"> main</text>
+    <g class="mono" font-size="18">
+      <text x="28" y="80" fill="#9f927f">01</text>
+      <text x="78" y="80" fill="#d8c8ad" font-weight="700">package</text>
+      <text x="162" y="80" fill="#d1bda3"> main</text>
 
-      <text x="22" y="112" fill="#9f927f">02</text>
-      <text x="58" y="112" fill="#d8c8ad" font-weight="700">import</text>
-      <text x="130" y="112" fill="#d1bda3"> </text>
-      <text x="142" y="112" fill="#c9b27a">"fmt"</text>
+      <text x="28" y="116" fill="#9f927f">02</text>
+      <text x="78" y="116" fill="#d8c8ad" font-weight="700">import</text>
+      <text x="150" y="116" fill="#d1bda3"> </text>
+      <text x="164" y="116" fill="#c9b27a">"fmt"</text>
 
-      <text x="22" y="148" fill="#9f927f">03</text>
-      <text x="58" y="148" fill="#d8c8ad" font-weight="700">type</text>
-      <text x="108" y="148" fill="#9ebdbe"> Palette</text>
-      <text x="194" y="148" fill="#d8c8ad" font-weight="700"> struct</text>
-      <text x="270" y="148" fill="#d1bda3"> {</text>
+      <text x="28" y="152" fill="#9f927f">03</text>
+      <text x="78" y="152" fill="#d8c8ad" font-weight="700">type</text>
+      <text x="132" y="152" fill="#9ebdbe"> Palette</text>
+      <text x="228" y="152" fill="#d8c8ad" font-weight="700"> struct</text>
+      <text x="312" y="152" fill="#d1bda3"> {</text>
 
-      <text x="22" y="184" fill="#9f927f">04</text>
-      <text x="58" y="184" fill="#d1bda3">    Foreground </text>
-      <text x="190" y="184" fill="#9ebdbe">string</text>
+      <text x="28" y="188" fill="#9f927f">04</text>
+      <text x="78" y="188" fill="#d1bda3">    Foreground </text>
+      <text x="232" y="188" fill="#9ebdbe">string</text>
 
-      <text x="22" y="220" fill="#9f927f">05</text>
-      <text x="58" y="220" fill="#d1bda3">}</text>
+      <text x="28" y="224" fill="#9f927f">05</text>
+      <text x="78" y="224" fill="#d1bda3">}</text>
 
-      <text x="22" y="256" fill="#9f927f">06</text>
-      <text x="58" y="256" fill="#d8c8ad" font-weight="700">func</text>
-      <text x="108" y="256" fill="#9ebdbe"> main</text>
-      <text x="166" y="256" fill="#d1bda3">() {</text>
-
-      <text x="22" y="292" fill="#9f927f">07</text>
-      <text x="58" y="292" fill="#9ebdbe">    fmt.Println</text>
-      <text x="190" y="292" fill="#d1bda3">(</text>
-      <text x="204" y="292" fill="#c9b27a">"Baltic"</text>
-      <text x="288" y="292" fill="#d1bda3">)</text>
+      <text x="28" y="260" fill="#9f927f">06</text>
+      <text x="78" y="260" fill="#d8c8ad" font-weight="700">func</text>
+      <text x="132" y="260" fill="#9ebdbe"> main</text>
+      <text x="196" y="260" fill="#d1bda3">() { </text>
+      <text x="252" y="260" fill="#9ebdbe">fmt.Println</text>
+      <text x="376" y="260" fill="#d1bda3">(</text>
+      <text x="390" y="260" fill="#c9b27a">"Baltic"</text>
+      <text x="480" y="260" fill="#d1bda3">) }</text>
     </g>
   </g>
 
-  <g transform="translate(792 166)">
-    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
-    <rect width="336" height="40" rx="8" fill="#101d24"/>
-    <rect y="32" width="336" height="8" fill="#101d24"/>
-    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">zig</text>
-    <text x="270" y="26" class="mono" fill="#9ebdbe" font-size="12">main.zig</text>
+  <g transform="translate(78 832)">
+    <rect width="1044" height="240" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="1044" height="42" rx="8" fill="#101d24"/>
+    <rect y="34" width="1044" height="8" fill="#101d24"/>
+    <text x="28" y="27" class="mono" fill="#d1bda3" font-size="14">zig</text>
+    <text x="930" y="27" class="mono" fill="#9ebdbe" font-size="13">main.zig</text>
 
-    <g class="mono" font-size="16">
-      <text x="22" y="76" fill="#9f927f">01</text>
-      <text x="58" y="76" fill="#d8c8ad" font-weight="700">const</text>
-      <text x="118" y="76" fill="#d1bda3"> std = </text>
-      <text x="190" y="76" fill="#9ebdbe">@import</text>
-      <text x="264" y="76" fill="#d1bda3">(</text>
-      <text x="278" y="76" fill="#c9b27a">"std"</text>
-      <text x="326" y="76" fill="#d1bda3">);</text>
+    <g class="mono" font-size="18">
+      <text x="28" y="80" fill="#9f927f">01</text>
+      <text x="78" y="80" fill="#d8c8ad" font-weight="700">const</text>
+      <text x="140" y="80" fill="#d1bda3"> std = </text>
+      <text x="220" y="80" fill="#9ebdbe">@import</text>
+      <text x="304" y="80" fill="#d1bda3">(</text>
+      <text x="318" y="80" fill="#c9b27a">"std"</text>
+      <text x="374" y="80" fill="#d1bda3">);</text>
 
-      <text x="22" y="112" fill="#9f927f">02</text>
-      <text x="58" y="112" fill="#d8c8ad" font-weight="700">pub fn</text>
-      <text x="130" y="112" fill="#9ebdbe"> main</text>
-      <text x="188" y="112" fill="#d1bda3">() </text>
-      <text x="224" y="112" fill="#b79ab2">!void</text>
-      <text x="280" y="112" fill="#d1bda3"> {</text>
+      <text x="28" y="116" fill="#9f927f">02</text>
+      <text x="78" y="116" fill="#d8c8ad" font-weight="700">pub fn</text>
+      <text x="152" y="116" fill="#9ebdbe"> main</text>
+      <text x="216" y="116" fill="#d1bda3">() </text>
+      <text x="252" y="116" fill="#b79ab2">!void</text>
+      <text x="312" y="116" fill="#d1bda3"> {</text>
 
-      <text x="22" y="148" fill="#9f927f">03</text>
-      <text x="58" y="148" fill="#d8c8ad" font-weight="700">    const</text>
-      <text x="146" y="148" fill="#d1bda3"> name = </text>
-      <text x="226" y="148" fill="#c9b27a">"Baltic"</text>
-      <text x="310" y="148" fill="#d1bda3">;</text>
+      <text x="28" y="152" fill="#9f927f">03</text>
+      <text x="78" y="152" fill="#d8c8ad" font-weight="700">    const</text>
+      <text x="174" y="152" fill="#d1bda3"> name = </text>
+      <text x="262" y="152" fill="#c9b27a">"Baltic"</text>
+      <text x="354" y="152" fill="#d1bda3">;</text>
 
-      <text x="22" y="184" fill="#9f927f">04</text>
-      <text x="58" y="184" fill="#d8c8ad" font-weight="700">    var</text>
-      <text x="118" y="184" fill="#d1bda3"> out = std.io.</text>
-
-      <text x="22" y="220" fill="#9f927f">05</text>
-      <text x="58" y="220" fill="#9ebdbe">        getStdOut</text>
-      <text x="194" y="220" fill="#d1bda3">().writer();</text>
-
-      <text x="22" y="256" fill="#9f927f">06</text>
-      <text x="58" y="256" fill="#d8c8ad" font-weight="700">    try</text>
-      <text x="110" y="256" fill="#d1bda3"> out.</text>
-      <text x="158" y="256" fill="#9ebdbe">print</text>
-      <text x="214" y="256" fill="#d1bda3">(</text>
-      <text x="228" y="256" fill="#c9b27a">"{s}\n"</text>
-      <text x="294" y="256" fill="#d1bda3">, .{name});</text>
+      <text x="28" y="188" fill="#9f927f">04</text>
+      <text x="78" y="188" fill="#d8c8ad" font-weight="700">    try</text>
+      <text x="138" y="188" fill="#d1bda3"> std.io.getStdOut().writer().</text>
+      <text x="446" y="188" fill="#9ebdbe">print</text>
+      <text x="506" y="188" fill="#d1bda3">(</text>
+      <text x="520" y="188" fill="#c9b27a">"{s}\n"</text>
+      <text x="592" y="188" fill="#d1bda3">, .{name});</text>
     </g>
   </g>
 
-  <g transform="translate(72 600)">
+  <g transform="translate(78 1110)">
     <text class="ui" x="0" y="0" fill="#9f927f" font-size="13">background</text>
     <rect x="92" y="-13" width="46" height="18" rx="3" fill="#08141a" stroke="#1a2b33"/>
     <text class="ui" x="164" y="0" fill="#9f927f" font-size="13">text</text>

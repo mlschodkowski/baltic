@@ -1,11 +1,15 @@
 # Baltic
 
 <p align="center">
-  <img src="docs/assets/baltic-preview.svg" alt="Baltic theme preview showing editor syntax, terminal colors, and palette swatches">
+  <img src="docs/assets/baltic-logo.svg" alt="Baltic theme logo with calm Baltic Sea waves">
 </p>
 
 <p align="center">
   <strong>Cream text, deep blue-black surfaces, and quiet coastal accents.</strong>
+</p>
+
+<p align="center">
+  <img src="docs/assets/baltic-preview.svg" alt="Baltic theme preview showing Python, Go, and Zig code samples">
 </p>
 
 Baltic is a cream-forward dark theme for editors and terminals. It keeps the main text warm and readable, then uses a small set of cold, muted accents for code structure.
