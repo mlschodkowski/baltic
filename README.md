@@ -39,6 +39,8 @@ The palette is not a clone of Naysayer or Solarized. It follows the same kind of
 | VS Code | `vscode/` |
 | Zed | `zed/` |
 | Neovim | `nvim/` |
+| Helix | `helix/` |
+| Ghostty | `ghostty/` |
 
 ## Install
 
@@ -68,7 +70,7 @@ Use `zed/` as a development extension directory, or copy `zed/themes/baltic.json
 
 ### Neovim
 
-Add `nvim/` as a local plugin and enable the colorscheme:
+Install the repository with your plugin manager and enable the colorscheme:
 
 ```vim
 :colorscheme baltic
@@ -87,6 +89,47 @@ With `lazy.nvim`:
 }
 ```
 
+### Helix
+
+```sh
+mkdir -p ~/.config/helix/themes
+cp helix/baltic.toml ~/.config/helix/themes/baltic.toml
+```
+
+Then set:
+
+```toml
+theme = "baltic"
+```
+
+### Ghostty
+
+```sh
+mkdir -p ~/.config/ghostty/themes
+cp ghostty/Baltic ~/.config/ghostty/themes/Baltic
+```
+
+Then set:
+
+```ini
+theme = Baltic
+```
+
+## Repository Layout
+
+```text
+.
+├── ghostty/          Ghostty terminal theme
+├── helix/            Helix editor theme
+├── nvim/             Neovim package mirror
+├── vscode/           VS Code extension package
+├── zed/              Zed extension package
+├── colors/           Neovim root plugin entry
+├── lua/              Neovim root plugin module
+├── docs/assets/      README preview assets
+└── palette.md        Shared palette notes
+```
+
 ## Design Notes
 
 Baltic uses cream as the normal reading color, not as a rare highlight. Keywords stay close to the text color, so the editor does not become a rainbow of control flow. Function and type names use a muted silver-blue accent, which separates calls from definitions without fighting the warm foreground.
@@ -102,6 +145,7 @@ python3 -m json.tool vscode/package.json
 python3 -m json.tool vscode/themes/baltic-color-theme.json
 python3 -m json.tool zed/themes/baltic.json
 luac -p nvim/colors/baltic.lua nvim/lua/baltic/init.lua nvim/lua/baltic/palette.lua
+xmllint --noout docs/assets/baltic-preview.svg
 ```
 
 The VS Code package follows the official theme contribution shape, the Zed theme declares the official `v0.2.0` schema, and the Neovim theme is implemented with `nvim_set_hl`.

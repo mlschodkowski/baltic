@@ -1,99 +1,173 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-  <title id="title">Baltic theme preview</title>
-  <desc id="desc">A preview of the Baltic color theme with editor syntax, terminal colors, and palette swatches.</desc>
-  <rect width="1200" height="760" fill="#08141a"/>
-  <rect x="48" y="44" width="1104" height="672" rx="18" fill="#101d24" stroke="#1a2b33" stroke-width="2"/>
-  <rect x="48" y="44" width="1104" height="64" rx="18" fill="#08141a"/>
-  <rect x="48" y="90" width="1104" height="18" fill="#08141a"/>
-  <circle cx="82" cy="76" r="8" fill="#c57972"/>
-  <circle cx="110" cy="76" r="8" fill="#c9b27a"/>
-  <circle cx="138" cy="76" r="8" fill="#97b88b"/>
-  <text x="184" y="83" fill="#d1bda3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Baltic</text>
-  <text x="254" y="83" fill="#9f927f" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">cream-forward dark theme</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Baltic theme code preview</title>
+  <desc id="desc">Baltic theme preview with Python, Go, and Zig code samples plus a compact palette strip.</desc>
+  <defs>
+    <style>
+      .ui { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; }
+    </style>
+  </defs>
 
-  <rect x="82" y="140" width="660" height="470" rx="12" fill="#08141a" stroke="#1a2b33"/>
-  <rect x="82" y="140" width="660" height="42" rx="12" fill="#101d24"/>
-  <rect x="82" y="170" width="660" height="12" fill="#101d24"/>
-  <text x="110" y="166" fill="#f0eadc" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14">example.py</text>
-  <text x="650" y="166" fill="#9ebdbe" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Python</text>
+  <rect width="1200" height="680" fill="#08141a"/>
+  <rect x="34" y="34" width="1132" height="612" rx="12" fill="#101d24" stroke="#1a2b33"/>
 
-  <g font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
-    <text x="110" y="225" fill="#9f927f">01</text>
-    <text x="154" y="225" fill="#d8c8ad" font-weight="700">import</text>
-    <text x="232" y="225" fill="#d1bda3"> pathlib</text>
-
-    <text x="110" y="265" fill="#9f927f">02</text>
-    <text x="154" y="265" fill="#d8c8ad" font-weight="700">def</text>
-    <text x="200" y="265" fill="#9ebdbe"> render_palette</text>
-    <text x="380" y="265" fill="#d1bda3">(name):</text>
-
-    <text x="110" y="305" fill="#9f927f">03</text>
-    <text x="154" y="305" fill="#9f927f" font-style="italic"># Cream stays readable; accents stay quiet.</text>
-
-    <text x="110" y="345" fill="#9f927f">04</text>
-    <text x="154" y="345" fill="#d1bda3">    base = </text>
-    <text x="274" y="345" fill="#c9b27a">"#08141a"</text>
-
-    <text x="110" y="385" fill="#9f927f">05</text>
-    <text x="154" y="385" fill="#d1bda3">    text = </text>
-    <text x="274" y="385" fill="#c9b27a">"#d1bda3"</text>
-
-    <text x="110" y="425" fill="#9f927f">06</text>
-    <text x="154" y="425" fill="#d8c8ad" font-weight="700">    return</text>
-    <text x="262" y="425" fill="#b8c9c8" font-weight="700"> len</text>
-    <text x="312" y="425" fill="#d1bda3">(name), text, base</text>
-
-    <text x="110" y="465" fill="#9f927f">07</text>
-    <text x="154" y="465" fill="#b79ab2">VERSION</text>
-    <text x="250" y="465" fill="#d1bda3"> = </text>
-    <text x="286" y="465" fill="#b79ab2">1</text>
-
-    <text x="110" y="505" fill="#9f927f">08</text>
-    <text x="154" y="505" fill="#9ebdbe">render_palette</text>
-    <text x="330" y="505" fill="#d1bda3">(</text>
-    <text x="344" y="505" fill="#c9b27a">"Baltic"</text>
-    <text x="440" y="505" fill="#d1bda3">)</text>
+  <g class="ui">
+    <text x="72" y="92" fill="#f0eadc" font-size="34" font-weight="750">Baltic</text>
+    <text x="72" y="123" fill="#9f927f" font-size="16">cream text, deep blue-black surfaces, quiet syntax accents</text>
   </g>
 
-  <rect x="782" y="140" width="334" height="178" rx="12" fill="#08141a" stroke="#1a2b33"/>
-  <text x="812" y="178" fill="#f0eadc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Terminal</text>
-  <text x="812" y="214" fill="#d99f6b" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$</text>
-  <text x="836" y="214" fill="#d1bda3" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="17">git status</text>
-  <text x="812" y="250" fill="#97b88b" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">added</text>
-  <text x="878" y="250" fill="#c9b27a" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">modified</text>
-  <text x="974" y="250" fill="#c57972" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="16">deleted</text>
-  <text x="812" y="286" fill="#9f927f" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="15">deep blue-black, warm cream text</text>
-
-  <rect x="782" y="348" width="334" height="262" rx="12" fill="#08141a" stroke="#1a2b33"/>
-  <text x="812" y="386" fill="#f0eadc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Palette</text>
-  <g transform="translate(812 416)">
-    <rect width="42" height="42" rx="8" fill="#08141a" stroke="#1a2b33"/>
-    <rect x="52" width="42" height="42" rx="8" fill="#101d24"/>
-    <rect x="104" width="42" height="42" rx="8" fill="#1a2b33"/>
-    <rect x="156" width="42" height="42" rx="8" fill="#263d47"/>
-    <rect x="208" width="42" height="42" rx="8" fill="#d1bda3"/>
-    <rect x="260" width="42" height="42" rx="8" fill="#f0eadc"/>
-  </g>
-  <g transform="translate(812 478)">
-    <rect width="42" height="42" rx="8" fill="#d8c8ad"/>
-    <rect x="52" width="42" height="42" rx="8" fill="#9ebdbe"/>
-    <rect x="104" width="42" height="42" rx="8" fill="#b8c9c8"/>
-    <rect x="156" width="42" height="42" rx="8" fill="#c9b27a"/>
-    <rect x="208" width="42" height="42" rx="8" fill="#d99f6b"/>
-    <rect x="260" width="42" height="42" rx="8" fill="#b79ab2"/>
-  </g>
-  <g transform="translate(812 540)">
-    <rect width="42" height="42" rx="8" fill="#97b88b"/>
-    <rect x="52" width="42" height="42" rx="8" fill="#c57972"/>
-    <text x="112" y="27" fill="#9f927f" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">restrained accents</text>
+  <g transform="translate(770 70)">
+    <rect width="34" height="34" rx="5" fill="#08141a" stroke="#1a2b33"/>
+    <rect x="44" width="34" height="34" rx="5" fill="#101d24"/>
+    <rect x="88" width="34" height="34" rx="5" fill="#1a2b33"/>
+    <rect x="132" width="34" height="34" rx="5" fill="#263d47"/>
+    <rect x="176" width="34" height="34" rx="5" fill="#d1bda3"/>
+    <rect x="220" width="34" height="34" rx="5" fill="#9ebdbe"/>
+    <rect x="264" width="34" height="34" rx="5" fill="#c9b27a"/>
+    <rect x="308" width="34" height="34" rx="5" fill="#d99f6b"/>
   </g>
 
-  <rect x="82" y="638" width="1034" height="42" rx="10" fill="#08141a" stroke="#1a2b33"/>
-  <text x="110" y="665" fill="#d1bda3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Text-first contrast</text>
-  <circle cx="264" cy="660" r="5" fill="#9ebdbe"/>
-  <text x="282" y="665" fill="#d1bda3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Silver-blue structure</text>
-  <circle cx="468" cy="660" r="5" fill="#c9b27a"/>
-  <text x="486" y="665" fill="#d1bda3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Warm strings</text>
-  <circle cx="618" cy="660" r="5" fill="#d99f6b"/>
-  <text x="636" y="665" fill="#d1bda3" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16">Amber focus</text>
+  <g transform="translate(72 166)">
+    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="336" height="40" rx="8" fill="#101d24"/>
+    <rect y="32" width="336" height="8" fill="#101d24"/>
+    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">python</text>
+    <text x="264" y="26" class="mono" fill="#9ebdbe" font-size="12">main.py</text>
+
+    <g class="mono" font-size="16">
+      <text x="22" y="76" fill="#9f927f">01</text>
+      <text x="58" y="76" fill="#d8c8ad" font-weight="700">from</text>
+      <text x="112" y="76" fill="#d1bda3"> pathlib </text>
+      <text x="206" y="76" fill="#d8c8ad" font-weight="700">import</text>
+      <text x="274" y="76" fill="#9ebdbe"> Path</text>
+
+      <text x="22" y="112" fill="#9f927f">02</text>
+      <text x="58" y="112" fill="#d8c8ad" font-weight="700">def</text>
+      <text x="100" y="112" fill="#9ebdbe"> load_theme</text>
+      <text x="218" y="112" fill="#d1bda3">(name):</text>
+
+      <text x="22" y="148" fill="#9f927f">03</text>
+      <text x="58" y="148" fill="#9f927f" font-style="italic"># warm foreground, quiet accents</text>
+
+      <text x="22" y="184" fill="#9f927f">04</text>
+      <text x="58" y="184" fill="#d1bda3">    path = </text>
+      <text x="150" y="184" fill="#9ebdbe">Path</text>
+      <text x="194" y="184" fill="#d1bda3">(</text>
+      <text x="208" y="184" fill="#c9b27a">"themes"</text>
+      <text x="294" y="184" fill="#d1bda3">)</text>
+
+      <text x="22" y="220" fill="#9f927f">05</text>
+      <text x="58" y="220" fill="#d8c8ad" font-weight="700">    return</text>
+      <text x="154" y="220" fill="#b8c9c8" font-weight="700"> len</text>
+      <text x="198" y="220" fill="#d1bda3">(name), path</text>
+
+      <text x="22" y="256" fill="#9f927f">06</text>
+      <text x="58" y="256" fill="#b79ab2">VERSION</text>
+      <text x="138" y="256" fill="#d1bda3"> = </text>
+      <text x="174" y="256" fill="#b79ab2">1</text>
+    </g>
+  </g>
+
+  <g transform="translate(432 166)">
+    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="336" height="40" rx="8" fill="#101d24"/>
+    <rect y="32" width="336" height="8" fill="#101d24"/>
+    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">go</text>
+    <text x="266" y="26" class="mono" fill="#9ebdbe" font-size="12">main.go</text>
+
+    <g class="mono" font-size="16">
+      <text x="22" y="76" fill="#9f927f">01</text>
+      <text x="58" y="76" fill="#d8c8ad" font-weight="700">package</text>
+      <text x="138" y="76" fill="#d1bda3"> main</text>
+
+      <text x="22" y="112" fill="#9f927f">02</text>
+      <text x="58" y="112" fill="#d8c8ad" font-weight="700">import</text>
+      <text x="130" y="112" fill="#d1bda3"> </text>
+      <text x="142" y="112" fill="#c9b27a">"fmt"</text>
+
+      <text x="22" y="148" fill="#9f927f">03</text>
+      <text x="58" y="148" fill="#d8c8ad" font-weight="700">type</text>
+      <text x="108" y="148" fill="#9ebdbe"> Palette</text>
+      <text x="194" y="148" fill="#d8c8ad" font-weight="700"> struct</text>
+      <text x="270" y="148" fill="#d1bda3"> {</text>
+
+      <text x="22" y="184" fill="#9f927f">04</text>
+      <text x="58" y="184" fill="#d1bda3">    Foreground </text>
+      <text x="190" y="184" fill="#9ebdbe">string</text>
+
+      <text x="22" y="220" fill="#9f927f">05</text>
+      <text x="58" y="220" fill="#d1bda3">}</text>
+
+      <text x="22" y="256" fill="#9f927f">06</text>
+      <text x="58" y="256" fill="#d8c8ad" font-weight="700">func</text>
+      <text x="108" y="256" fill="#9ebdbe"> main</text>
+      <text x="166" y="256" fill="#d1bda3">() {</text>
+
+      <text x="22" y="292" fill="#9f927f">07</text>
+      <text x="58" y="292" fill="#9ebdbe">    fmt.Println</text>
+      <text x="190" y="292" fill="#d1bda3">(</text>
+      <text x="204" y="292" fill="#c9b27a">"Baltic"</text>
+      <text x="288" y="292" fill="#d1bda3">)</text>
+    </g>
+  </g>
+
+  <g transform="translate(792 166)">
+    <rect width="336" height="406" rx="8" fill="#08141a" stroke="#1a2b33"/>
+    <rect width="336" height="40" rx="8" fill="#101d24"/>
+    <rect y="32" width="336" height="8" fill="#101d24"/>
+    <text x="22" y="26" class="mono" fill="#d1bda3" font-size="13">zig</text>
+    <text x="270" y="26" class="mono" fill="#9ebdbe" font-size="12">main.zig</text>
+
+    <g class="mono" font-size="16">
+      <text x="22" y="76" fill="#9f927f">01</text>
+      <text x="58" y="76" fill="#d8c8ad" font-weight="700">const</text>
+      <text x="118" y="76" fill="#d1bda3"> std = </text>
+      <text x="190" y="76" fill="#9ebdbe">@import</text>
+      <text x="264" y="76" fill="#d1bda3">(</text>
+      <text x="278" y="76" fill="#c9b27a">"std"</text>
+      <text x="326" y="76" fill="#d1bda3">);</text>
+
+      <text x="22" y="112" fill="#9f927f">02</text>
+      <text x="58" y="112" fill="#d8c8ad" font-weight="700">pub fn</text>
+      <text x="130" y="112" fill="#9ebdbe"> main</text>
+      <text x="188" y="112" fill="#d1bda3">() </text>
+      <text x="224" y="112" fill="#b79ab2">!void</text>
+      <text x="280" y="112" fill="#d1bda3"> {</text>
+
+      <text x="22" y="148" fill="#9f927f">03</text>
+      <text x="58" y="148" fill="#d8c8ad" font-weight="700">    const</text>
+      <text x="146" y="148" fill="#d1bda3"> name = </text>
+      <text x="226" y="148" fill="#c9b27a">"Baltic"</text>
+      <text x="310" y="148" fill="#d1bda3">;</text>
+
+      <text x="22" y="184" fill="#9f927f">04</text>
+      <text x="58" y="184" fill="#d8c8ad" font-weight="700">    var</text>
+      <text x="118" y="184" fill="#d1bda3"> out = std.io.</text>
+
+      <text x="22" y="220" fill="#9f927f">05</text>
+      <text x="58" y="220" fill="#9ebdbe">        getStdOut</text>
+      <text x="194" y="220" fill="#d1bda3">().writer();</text>
+
+      <text x="22" y="256" fill="#9f927f">06</text>
+      <text x="58" y="256" fill="#d8c8ad" font-weight="700">    try</text>
+      <text x="110" y="256" fill="#d1bda3"> out.</text>
+      <text x="158" y="256" fill="#9ebdbe">print</text>
+      <text x="214" y="256" fill="#d1bda3">(</text>
+      <text x="228" y="256" fill="#c9b27a">"{s}\n"</text>
+      <text x="294" y="256" fill="#d1bda3">, .{name});</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 600)">
+    <text class="ui" x="0" y="0" fill="#9f927f" font-size="13">background</text>
+    <rect x="92" y="-13" width="46" height="18" rx="3" fill="#08141a" stroke="#1a2b33"/>
+    <text class="ui" x="164" y="0" fill="#9f927f" font-size="13">text</text>
+    <rect x="200" y="-13" width="46" height="18" rx="3" fill="#d1bda3"/>
+    <text class="ui" x="272" y="0" fill="#9f927f" font-size="13">functions</text>
+    <rect x="348" y="-13" width="46" height="18" rx="3" fill="#9ebdbe"/>
+    <text class="ui" x="420" y="0" fill="#9f927f" font-size="13">strings</text>
+    <rect x="480" y="-13" width="46" height="18" rx="3" fill="#c9b27a"/>
+    <text class="ui" x="552" y="0" fill="#9f927f" font-size="13">errors</text>
+    <rect x="602" y="-13" width="46" height="18" rx="3" fill="#c57972"/>
+  </g>
 </svg>

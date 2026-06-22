@@ -1,0 +1,28 @@
+# Ghostty Baltic Theme
+# Cream-accent dark terminal palette.
+
+background = #08141a
+foreground = #d1bda3
+cursor-color = #d99f6b
+selection-background = #263d47
+selection-foreground = #f0eadc
+
+# Dark Palette
+palette = 0=#08141a
+palette = 1=#c57972
+palette = 2=#97b88b
+palette = 3=#c9b27a
+palette = 4=#9ebdbe
+palette = 5=#b79ab2
+palette = 6=#9ebdbe
+palette = 7=#d1bda3
+
+# Bright Palette
+palette = 8=#1a2b33
+palette = 9=#d28a82
+palette = 10=#a9c99d
+palette = 11=#d8c488
+palette = 12=#b8c9c8
+palette = 13=#c8abc3
+palette = 14=#b8c9c8
+palette = 15=#f0eadc
