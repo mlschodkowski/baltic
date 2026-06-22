@@ -2,10 +2,9 @@
   <title id="title">Baltic logo</title>
   <desc id="desc">Baltic theme logo with calm low waves inspired by the Baltic Sea.</desc>
   <rect width="900" height="300" rx="18" fill="#08141a"/>
-  <text x="74" y="88" fill="#f0eadc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="52" font-weight="800">Baltic</text>
-  <text x="76" y="122" fill="#9f927f" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">cream-forward colors for cold water and low light</text>
-  <circle cx="742" cy="86" r="22" fill="#d99f6b"/>
-  <path d="M76 188 C140 158 198 158 262 188 C326 218 384 218 448 188 C512 158 570 158 634 188 C698 218 756 218 824 188" fill="none" stroke="#263d47" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
-  <path d="M76 214 C140 184 198 184 262 214 C326 244 384 244 448 214 C512 184 570 184 634 214 C698 244 756 244 824 214" fill="none" stroke="#9ebdbe" stroke-width="10" stroke-linecap="round"/>
-  <path d="M76 240 C140 210 198 210 262 240 C326 270 384 270 448 240 C512 210 570 210 634 240 C698 270 756 270 824 240" fill="none" stroke="#d1bda3" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
+  <text x="74" y="100" fill="#f0eadc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="800">Baltic</text>
+  <circle cx="748" cy="86" r="22" fill="#d99f6b"/>
+  <path d="M76 178 C140 148 198 148 262 178 C326 208 384 208 448 178 C512 148 570 148 634 178 C698 208 756 208 824 178" fill="none" stroke="#263d47" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
+  <path d="M76 212 C140 182 198 182 262 212 C326 242 384 242 448 212 C512 182 570 182 634 212 C698 242 756 242 824 212" fill="none" stroke="#9ebdbe" stroke-width="10" stroke-linecap="round"/>
+  <path d="M76 242 C140 212 198 212 262 242 C326 272 384 272 448 242 C512 212 570 212 634 242 C698 272 756 272 824 242" fill="none" stroke="#d1bda3" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
 </svg>
